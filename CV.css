@@ -1,0 +1,53 @@
+
+body{
+    background-color: rgba(249, 143, 45, 0.848);
+    margin: 20px 30px;
+    font-family:'Times New Roman', Times, serif;
+  
+  }
+  header {
+    text-align: center;
+    color: rgba(68, 10, 10, 0.855);
+    background-color: rgba(203, 145, 12, 0.192);
+    
+  }
+  section {
+    float: left;
+    margin-bottom: 20px;
+    width: 78%;
+    background-color: rgb(253, 238, 178);
+    border-radius: 8px;
+    border-color: rgb(154, 79, 25);
+    border-style: outset;
+  }
+  aside {
+    float: right;
+    width: 20%;
+    background-color: rgb(253, 238, 178);
+    border-radius: 8px;
+    border-color: rgb(154, 79, 25);
+    border-style: outset;
+    text-align: center;
+    padding-left: 10px;
+  }
+  
+ 
+  
+  section h2{
+    color: rgb(144, 11, 11);
+    border-bottom: 2px solid rgb(144, 11, 11);
+    padding-left:10px;
+    
+  }
+  section h3{
+    color:rgba(106, 6, 6, 0.868);
+    padding-left:20px;
+  
+  }
+  section p {
+    padding: 0px 40px;
+  }
+  
+ul{
+list-style: none;
+}
