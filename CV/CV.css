@@ -3,6 +3,8 @@ body{
     background-color: rgba(249, 143, 45, 0.848);
     margin: 20px 30px;
     font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
   
   }
   header {
