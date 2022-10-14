@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+body{
+    background-color: hsl(0deg 0% 18%);
+    
+}
+
+.container {
+    margin: 60px auto; /*nalt e posht*/
+    width: 55%;
+    height: 600px;
+    background-color: hsl(220deg 31% 79%);
+    overflow: hidden; /*so margins dont collapse*/
+  }
+  
+  .wrapper {
+    margin: 90px 60px;
+    padding: 60px 30px;
+    
+    background-color: hsl(218deg 13% 24%);
+    border-radius: 15px;
+    text-align: center;
+    font-family: sans-serif;
+   
+}
+.logo{
+    position: absolute;
+    margin-left: 280px;
+    margin-top:-80px;
+    border-radius: 50px;
+    
+   
+}
+h1{
+    font-size: 45px;
+    color: hsl(219deg 100% 66%);
+}
+.first-p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.685);
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.input{
+    width: 60%;
+    padding: 12px 20px;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-size: 16px;
+
+}
+.btn{
+    width: 20%;
+    margin-left: 5px;
+    padding: 12px 20px;
+    background-color: hsl(220deg 100% 66%);
+    border: 2px solid hsl(220deg 100% 66%);
+    border-radius: 12px;
+    color: white;
+    font-size: 15px;
+}
+.last-p{
+    font-size: 17px;
+    color: hsl(224deg 6% 48%);
+    margin: 30px;
+}
